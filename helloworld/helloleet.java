@@ -1,11 +1,12 @@
 public class helloleet {
   public static void main(String[] args) {
     byte three = 3;
-    byte one = 1;
-    byte zero = 0;
-    float a = 2.0f;
-    boolean b = true;
-    String output = "H" + three + one + one + zero + " " + "w" + zero + "r" + one + "d" + " " + a + " " + b;
+    short a = 1;
+    int b = 0;
+    char d = ' ';
+    float e = 2.0f;
+    boolean f = true;
+    String output = "H" + three + a + a + b + d + "w" + b + "r" + a + "d" + d + e + d + f;
     System.out.println(output);
   }
 }
